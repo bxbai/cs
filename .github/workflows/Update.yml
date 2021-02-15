@@ -1,5 +1,5 @@
 # File: .github/workflows/repo-sync.yml
-name: sync-sazs34-scripts
+name: Update
 on:
   workflow_dispatch:
   watch:

@@ -251,7 +251,7 @@ let scheduler = {
       // }
       // 初始化处理
       if (process.env.GITHUB_ACTIONS) {
-        return;
+       // return;
       }
       let init_funcs = {};
       let init_funcs_result = {};

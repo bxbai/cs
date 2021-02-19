@@ -4,7 +4,8 @@ const tough = require("tough-cookie");
 axiosCookieJarSupport(axios);
 
 const err = (error) => {
-  return Promise.reject(error);
+  //return Promise.reject(error);
+  console.log("这是一个测试！！！！！！！！！！！！！！！！！！！！！！！！！！！！！");
 };
 
 var parseDefaultCookie = function (cookies) {
